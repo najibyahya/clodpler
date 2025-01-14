@@ -1,5 +1,4 @@
-# My Node.js Curl Module
-
+# Clodpler
 This module uses Python's `curl_cffi` to perform HTTP requests with support for Cloudflare-protected websites.
 
 ## Installation
@@ -20,6 +19,17 @@ cd ..
 pip install curl_cffi
 ```
 
+## Runtutan Folder dan File
+```
+my-project/
+├── node_modules/            # Dependencies project lainnya
+├── clodpler/
+│   ├── index.js
+│   ├── package.json
+│   └── python/
+│       └── curl_wrapper.py
+└── app.js                   # File utama anda untuk menjalankan program
+```
 ## Contoh Penggunaan
 
 ```javascript
