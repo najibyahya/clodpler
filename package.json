@@ -1,5 +1,26 @@
 {
+  "name": "my-nodejs-curl-module",
+  "version": "1.0.0",
+  "description": "A Node.js module to perform secure HTTP requests using Python's curl_cffi, suitable for Cloudflare-protected sites.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "nodejs",
+    "curl",
+    "python",
+    "cloudflare",
+    "http-request"
+  ],
+  "author": "w/ ai",
+  "license": "MIT",
   "dependencies": {
-    "clodpler": "github.com/najibyahya/clodpler"
+    "python-shell": "^3.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
